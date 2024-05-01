@@ -1,1 +1,1 @@
-# jobijob - the main portal for job listing
+# jobijob - the portal for job listings in SA
