@@ -19,7 +19,7 @@ let jobs = [
         salary: 90000
     },{
         id: 3, 
-        title: 'Senior Web Developer',
+        title: 'Senior Web Developer - Web Developer - Web Manager',
         description: 'Oversee Build websites',
         salary: 120000
     }
