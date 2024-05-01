@@ -6,5 +6,5 @@ app.listen(80, ()=>{
 });
 
 app.get('/', (req, res)=>{
-    res.send('Hello JobiJobber. Welcome!');
+    res.send('Hello JobiJobber. Welcome here!');
 });
