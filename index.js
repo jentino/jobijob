@@ -10,20 +10,47 @@ let jobs = [
         id: 1, 
         title: 'Web Developer',
         description: 'Code websites',
+        department: 'Department of Code websites',
         salary: 80000
     },
     {
         id: 2, 
         title: 'Web Designer',
         description: 'Design websites',
+        department: 'Department of design websites',
         salary: 90000
     },{
         id: 3, 
         title: 'Senior Web Developer - Web Developer - Web Manager',
         description: 'Oversee Build websites',
+        department: 'Department of oversee websites',
         salary: 120000
     }
 ];
+
+
+// let jobsdetails = [
+//     {
+//         jobid: 1,
+//         jobmainid: 1, 
+//         title: 'Web Developer',
+//         department: 'Department of Code websites',
+//         salary: 80000
+//     },
+//     {
+//         id: 2, 
+//         title: 'Web Designer',
+//         description: 'Design websites',
+//         department: 'Department of design websites',
+//         salary: 90000
+//     },{
+//         id: 3, 
+//         title: 'Senior Web Developer - Web Developer - Web Manager',
+//         department: 'Department of oversee websites',
+//         salary: 120000
+//     }
+// ];
+
 
 app.get('/jobs', (req, res)=>{
     res.send(jobs);
