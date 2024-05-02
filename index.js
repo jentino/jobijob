@@ -32,31 +32,37 @@ let jobs = [
 ];
 
 
-// let jobsdetails = [
-//     {
-//         jobid: 1,
-//         jobmainid: 1, 
-//         title: 'Web Developer',
-//         department: 'Department of Code websites',
-//         salary: 80000
-//     },
-//     {
-//         id: 2, 
-//         title: 'Web Designer',
-//         description: 'Design websites',
-//         department: 'Department of design websites',
-//         salary: 90000
-//     },{
-//         id: 3, 
-//         title: 'Senior Web Developer - Web Developer - Web Manager',
-//         department: 'Department of oversee websites',
-//         salary: 120000
-//     }
-// ];
+let jobscompanies = [
+    {
+        id: 1,
+        company: 'University of Cape Town',
+        location: "Western Cape"
+    },
+    {
+        id: 2,
+        company: 'University of Western Cape',
+        location: "Western Cape"
+    },
+    {
+        id: 3,
+        company: 'Stellenbosch University',
+        location: "Western Cape"
+    },
+    {
+        id: 4,
+        company: 'Cape Peninsula University of Technology',
+        location: "Western Cape"
+    },
+];
 
 
 app.get('/jobs', (req, res)=>{
     res.send(jobs);
+});
+
+
+app.get('/companies', (req, res)=>{
+    res.send(jobscompanies);
 });
 
 app.get('/', (req, res)=>{
