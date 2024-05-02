@@ -50,7 +50,7 @@ let jobscompanies = [
     },
     {
         id: 4,
-        company: 'Cape Peninsula University of Technology',
+        company: 'Cape Peninsula University',
         location: "Western Cape"
     },
 ];
