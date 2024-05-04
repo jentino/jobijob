@@ -35,17 +35,17 @@ let jobs = [
 let jobscompanies = [
     {
         id: 0,
-        company: 'Western Cape Universities',
+        name: 'Western Cape Universities',
         location: "Western Cape"
     },
     {
         id: 1,
-        company: 'University of Cape Town',
+        name: 'University of Cape Town',
         location: "Western Cape"
     },
     {
         id: 2,
-        company: 'University of Western Cape',
+        name: 'University of Western Cape',
         location: "Western Cape"
     },
     {
