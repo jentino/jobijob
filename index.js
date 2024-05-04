@@ -24,7 +24,7 @@ let jobs = [
     },{
         id: 3, 
         title: 'Senior Web Developer',
-        description: 'This job requires someone to Oversee Build websites!',
+        description: 'This job requires someone to Oversee Building websites!',
         longdescription: "Oversee a robust and scalable website to support an app with over 1 million lines of code, ensuring high performance and reliability.  Design and implement customized landing pages for each industry we serve, reflecting their unique needs and characteristics.  Create additional landing pages for various marketing and operational purposes, ensuring brand consistency and message alignment.  Ensure responsive and optimized web design across various devices and platforms.  Integrate a flexible and powerful CMS to manage diverse content efficiently.  Provide ongoing maintenance, updates, and enhancements to the website, addressing complex challenges and ensuring seamless user experience.",
         department: 'Department of oversee websites',
         salary: 120000
@@ -33,6 +33,11 @@ let jobs = [
 
 
 let jobscompanies = [
+    {
+        id: 0,
+        company: 'Western Cape Universities',
+        location: "Western Cape"
+    },
     {
         id: 1,
         company: 'University of Cape Town',
