@@ -36,7 +36,7 @@ let jobscompanies = [
     {
         id: 1,
         name: 'Western Cape Universities',
-        location: "Western Cape"
+        location: "Westersn Cape"
     },
     {
         id: 2,
@@ -55,9 +55,9 @@ let jobscompanies = [
     },
     {
         id: 5,
-        name: 'Cape Peninsula University',
+        name: 'Cape Peninsula University of Technology',
         location: "Western Cape"
-    },
+    }
 ];
 
 
