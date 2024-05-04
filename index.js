@@ -35,7 +35,7 @@ let jobs = [
 let jobscompanies = [
     {
         id: 1,
-        name: 'Western Cape Universities',
+        name: 'Western Cape University',
         location: "Westersn Cape"
     },
     {
