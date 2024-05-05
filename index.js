@@ -41,6 +41,33 @@ let jobs = [
         longdescription: "Oversee a robust and scalable website to support an app with over 1 million lines of code, ensuring high performance and reliability.  Design and implement customized landing pages for each industry we serve, reflecting their unique needs and characteristics.  Create additional landing pages for various marketing and operational purposes, ensuring brand consistency and message alignment.  Ensure responsive and optimized web design across various devices and platforms.  Integrate a flexible and powerful CMS to manage diverse content efficiently.  Provide ongoing maintenance, updates, and enhancements to the website, addressing complex challenges and ensuring seamless user experience.",
         department: 'Department of oversee websites',
         salary: 120000
+    },
+    {
+        id: 5, 
+        companyId: 3,
+        title: 'Senior Web Developer',
+        description: 'This job requires someone to Oversee Building websites!',
+        longdescription: "Oversee a robust and scalable website to support an app with over 1 million lines of code, ensuring high performance and reliability.  Design and implement customized landing pages for each industry we serve, reflecting their unique needs and characteristics.  Create additional landing pages for various marketing and operational purposes, ensuring brand consistency and message alignment.  Ensure responsive and optimized web design across various devices and platforms.  Integrate a flexible and powerful CMS to manage diverse content efficiently.  Provide ongoing maintenance, updates, and enhancements to the website, addressing complex challenges and ensuring seamless user experience.",
+        department: 'Department of oversee websites',
+        salary: 120000
+    },
+    {
+        id: 6, 
+        companyId: 4,
+        title: 'Senior Web Developer',
+        description: 'This job requires someone to Oversee Building websites!',
+        longdescription: "Oversee a robust and scalable website to support an app with over 1 million lines of code, ensuring high performance and reliability.  Design and implement customized landing pages for each industry we serve, reflecting their unique needs and characteristics.  Create additional landing pages for various marketing and operational purposes, ensuring brand consistency and message alignment.  Ensure responsive and optimized web design across various devices and platforms.  Integrate a flexible and powerful CMS to manage diverse content efficiently.  Provide ongoing maintenance, updates, and enhancements to the website, addressing complex challenges and ensuring seamless user experience.",
+        department: 'Department of oversee websites',
+        salary: 120000
+    },
+    {
+        id: 7, 
+        companyId: 5,
+        title: 'Senior Web Developer',
+        description: 'This job requires someone to Oversee Building websites!',
+        longdescription: "Oversee a robust and scalable website to support an app with over 1 million lines of code, ensuring high performance and reliability.  Design and implement customized landing pages for each industry we serve, reflecting their unique needs and characteristics.  Create additional landing pages for various marketing and operational purposes, ensuring brand consistency and message alignment.  Ensure responsive and optimized web design across various devices and platforms.  Integrate a flexible and powerful CMS to manage diverse content efficiently.  Provide ongoing maintenance, updates, and enhancements to the website, addressing complex challenges and ensuring seamless user experience.",
+        department: 'Department of oversee websites',
+        salary: 120000
     }
 ];
 
@@ -65,6 +92,11 @@ let jobscompanies = [
     {
         id: 4,
         name: 'Cape Peninsula University of Technology',
+        location: "Western Cape"
+    },
+    {
+        id: 5,
+        name: 'University of South Africa',
         location: "Western Cape"
     }
 ];
