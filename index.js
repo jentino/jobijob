@@ -77,27 +77,32 @@ let jobscompanies = [
     {
         id: 1,
         name: 'University of Cape Town',
-        location: "Western Cape"
+        location: "Western Cape",
+        imgurl: 'https://mediaportfolio.uct.ac.za:8095/logo_downloads/api/v1/asset/564502/thumbnail'
     },
     {
         id: 2,
         name: 'University of the Western Cape',
-        location: "Western Cape"
+        location: "Western Cape",
+        imgurl: 'https://e7.pngegg.com/pngimages/575/175/png-clipart-institute-for-poverty-land-and-agrarian-studies-stellenbosch-university-university-of-the-western-cape-faculty-of-dentistry-student-student-emblem-label.png'
     },
     {
         id: 3,
         name: 'Stellenbosch University',
-        location: "Western Cape"
+        location: "Western Cape",
+        imgurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxIkr5F9dpDHCkEywfgf63O3O-ZH_X4BuDYg&s'
     },
     {
         id: 4,
         name: 'Cape Peninsula University of Technology',
-        location: "Western Cape"
+        location: "Western Cape",
+        imgurl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLrObjJIHqhlSQ0QXL-iS5GdjzqWy-PfidAZp48vggUzUeSYL4'
     },
     {
         id: 5,
         name: 'University of South Africa',
-        location: "Western Cape"
+        location: "Western Cape",
+        imgurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvrZ9hExNMmJNSNTwwciAwL-L-aZnzQk8rOw&s'
     }
 ];
 
