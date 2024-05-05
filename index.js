@@ -44,7 +44,7 @@ let jobscompanies = [
     },
     {
         id: 2,
-        name: 'University of Western Cape',
+        name: 'University of the Western Cape',
         location: "Western Cape"
     },
     {
