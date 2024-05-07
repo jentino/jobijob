@@ -1,6 +1,6 @@
 const express =require('express');
 const app = express();
-const mysqli = require('mysql');
+const mysql = require('mysql');
 
 
 
