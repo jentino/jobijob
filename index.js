@@ -13,8 +13,7 @@ var connection = mysql.createConnection({
 
     host: 'localhost',
     user: 'root',
-    password: '',
-    // password: 'password123',
+    password: 'password123',
     database: 'jobijobapi'
 
 });
