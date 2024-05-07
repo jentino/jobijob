@@ -2,6 +2,13 @@ const express =require('express');
 const app = express();
 const mysqli = require('mysql');
 
+
+
+app.listen(80, ()=>{
+    console.log('Server is listening on port 80');
+});
+
+
 var connection = mysql.createConnection({
 
     host: 'localhost',
@@ -26,9 +33,6 @@ connection.query('SELECT * FROM jobs',(error, results, fields)=>{
 
 connection.end();   
 
-app.listen(80, ()=>{
-    console.log('Server is listening on port 80');
-});
 
 // let jobs = [
 //     {
@@ -137,10 +141,10 @@ app.get('/jobs', (req, res)=>{
 });
 
 
-app.get('/companies', (req, res)=>{
-    res.send(jobscompanies);
-});
+// app.get('/companies', (req, res)=>{
+//     res.send(jobscompanies);
+// });
 
-app.get('/', (req, res)=>{
-    res.send('Hello JobiJobber. Welcome here!');
-});
+// app.get('/', (req, res)=>{
+//     res.send('Hello JobiJobber. Welcome here!');
+// });
