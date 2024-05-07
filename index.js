@@ -1,4 +1,4 @@
-const express =require('express');
+const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
@@ -27,7 +27,7 @@ connection.connect((err)=>{
 
 connection.query('SELECT * FROM jobs',(error, results, fields)=>{
     if(error) throw error;
-    console.log(results);
+    console.log(results[0]);
 });
 
 connection.end();   
